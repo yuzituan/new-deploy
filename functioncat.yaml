@@ -16,7 +16,7 @@ apps:
           root_path: ./
           command:  npm run build
         provision:
-          root_path: dist
+          root_path: docs
           runtime:
             type: nodejs18x
      
