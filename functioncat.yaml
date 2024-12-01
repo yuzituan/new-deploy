@@ -1,4 +1,4 @@
-opensystem: v1.0.0
+system: 1.0.0
 info:
   name: universal resume 
 envs:
@@ -14,9 +14,8 @@ apps:
       prod:
         build:
           root_path: ./
-          command:  npm run build
+          script:  npm run build
         provision:
           root_path: docs
-          runtime:
-            type: nodejs18x
+          type: nodejs18x
      
